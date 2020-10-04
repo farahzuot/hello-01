@@ -33,7 +33,7 @@
   * { margin:0; padding:0; box-sizing:border-box; }
   nav {
     background-color: black;
-    width: 1262px;
+    width: 100%;
   }
   a:hover {
       background-color: white;
@@ -47,8 +47,8 @@
     font-size: 15px;
     cursor: pointer;
     font-family: Verdana,sans-serif;
-    margin-left: 707px;
-  }
+    float: right; 
+ }
   .d:hover {
     background-color: rgb(74, 153, 140);
   }
@@ -93,7 +93,7 @@
 
   .images {
     border-radius: 50%;
-    margin-left: 137px;
+    margin-left: 11.5%;
     width: 140px;
     height: 140px;
   }
@@ -105,19 +105,19 @@
   }
   .name1 {
     display: inline-block;
-    margin-left: 135px;
+    margin-left: 11%;
   }
   .name2 {
     display: inline-block;
-    margin-left: 137px;
+    margin-left: 12%;
   }
   .name3 {
     display: inline-block;
-    margin-left: 162px;
+    margin-left: 13%;
   }
   .name4 {
     display: inline-block;
-    margin-left: 182px;
+    margin-left: 15%;
   }
   .our {
       color: white;
@@ -145,21 +145,37 @@
      
   }
   .img2 {
-      margin-left: 10px;
+      margin-left: 3.5%;
       width: 300px;
   }
+  .img3 {
+    margin-left: 1%;
+    width: 300px;
+}
   .e {
       display: inline-block;
       background-color: white;
       color: rgb(24, 23, 23);
       width: 300px;
       height: 250px;
-      margin-left: 10px;
+      margin-left: 3.5%;
       /* font-size: 14px; */
       text-align: left;
       /* font-family: Verdana,sans-serif; */
       
   }
+  .e1 {
+    display: inline-block;
+    background-color: white;
+    color: rgb(24, 23, 23);
+    width: 300px;
+    height: 250px;
+    margin-left: 1%;
+    /* font-size: 14px; */
+    text-align: left;
+    /* font-family: Verdana,sans-serif; */
+    
+}
   .cust {
     
     display: inherit;
@@ -200,7 +216,7 @@
 table {
 
     /* padding: 20px; */
-    margin-left: 10px;
+    margin-left: 2.5%;
     display: inline;
     border: black;
     border-collapse: collapse;
@@ -287,9 +303,11 @@ tr {
   margin-left: 15px;
 }
 #cc {
-  display: inline;
   float: left;
   text-align: left;
+  margin-left: 1%;
+  margin-top: 2%;
+
   
 }
 .dd {
@@ -357,6 +375,7 @@ input:focus {
 
 #end {
   height: 250px;
+  margin-top: -5px;
   background-color: black;
   
 }
@@ -372,7 +391,7 @@ input:focus {
   background-color: rgb(42, 160, 167) ;
   display: flex;
   float: left;
-  margin-left: 508px;
+  margin-left: 40%;
   height: 42px;
   width: 45px;
   font-size: 22px;
@@ -418,6 +437,3 @@ input:focus {
   font-size: 22px;
 }
 
-#topbutton {
-  
-}
